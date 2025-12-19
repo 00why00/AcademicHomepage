@@ -8,7 +8,7 @@
 [**Code**](https://github.com/00why00/JoDiffusion) | [**Weight**](https://huggingface.co/0why0/JoDiffusion)
 <!-- <strong><span class='show_paper_citations' data='PBNh1BIAAAAJ:2osOgNQ5qMEC'></span></strong> -->
 
-- A framework for multi-object image augmentation using local-global semantic fusion and a reward model-based counting loss.
+- A joint diffusion framework for semantic segmentation dataset generation using an annotation VAE for latent alignment and a boundary mode-based mask optimization strategy.
 </div>
 </div>
 
