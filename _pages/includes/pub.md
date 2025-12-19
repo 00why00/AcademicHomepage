@@ -1,4 +1,17 @@
 # 📝 Publications 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI2026</div><img src='images/JoDiffusion.png' alt="JoDiffusion" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[JoDiffusion: Jointly Diffusing Image with Pixel-Level Annotations for Semantic Segmentation Promotion](https://arxiv.org/abs/2512.13014) \\
+**Haoyu Wang**, Lei Zhang, Wenrui Liu, Dengyang Jiang, Wei Wei, Chen Ding
+
+[**Code**](https://github.com/00why00/JoDiffusion) | [**Weight**](https://huggingface.co/0why0/JoDiffusion)
+<!-- <strong><span class='show_paper_citations' data='PBNh1BIAAAAJ:2osOgNQ5qMEC'></span></strong> -->
+
+- A framework for multi-object image augmentation using local-global semantic fusion and a reward model-based counting loss.
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Preprint</div><img src='images/SRA.png' alt="SRA" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -15,10 +28,10 @@ Dengyang Jiang, Mengmeng Wang, Liuzhuozheng Li, Lei Zhang, **Haoyu Wang**, Wei W
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IJCAI2025</div><img src='images/PFD.png' alt="PFD" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Prompt-Free Conditional Diffusion for Multi-object Image Augmentation](https://haoyuwang.com) \\
+[Prompt-Free Conditional Diffusion for Multi-object Image Augmentation](https://arxiv.org/abs/2507.06146) \\
 **Haoyu Wang**, Lei Zhang, Wei Wei, Chen Ding, Yanning Zhang
 
-[**Code**](https://haoyuwang.com) 
+[**Code**](https://github.com/00why00/PFCD) | [**Weight**](https://huggingface.co/0why0/PFCD)
 <!-- <strong><span class='show_paper_citations' data='PBNh1BIAAAAJ:2osOgNQ5qMEC'></span></strong> -->
 
 - A framework for multi-object image augmentation using local-global semantic fusion and a reward model-based counting loss.

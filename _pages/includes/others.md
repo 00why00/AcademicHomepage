@@ -5,5 +5,5 @@
 - *2017.09 - 2021.06*, Yanshan University, Bachelor of Computer Science and Technology.
 
 # 💻 Academic Services
-- Conference Reviewer: ICCV'25, NeurIPS'25
-- Journal Reviewer: PR, JSTAR
+- Conference Reviewer: ICCV'25, NeurIPS'25, AAAI'26
+- Journal Reviewer: TBC, PR, JSTAR
