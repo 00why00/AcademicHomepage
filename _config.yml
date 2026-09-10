@@ -7,9 +7,11 @@
 
 # Site Settings
 title                    : "Haoyu Wang"
-description              : "Welcome to my homepage. Have a nice day.😀"
+description              : "Haoyu Wang is a Ph.D. student at Northwestern Polytechnical University researching computer vision, diffusion models, and synthetic data for visual recognition."
+url                      : "https://haoyuwang.com"
+baseurl                  : ""
 repository               : "00why00/AcademicHomepage"
-google_scholar_stats_use_cdn : true
+google_scholar_stats_use_cdn : false
 
 # google analytics
 google_analytics_id      :  G-307H5PKZ50
@@ -21,8 +23,9 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "Haoyu Wang (王昊宇)"
-  avatar           : "images/android-chrome-512x512.png"
+  name             : "Haoyu Wang"
+  name_native      : "王昊宇"
+  avatar           : "/images/avatar.webp"
   bio              : "Northwestern Polytechnical University"
   location         : "Xi'an, China"
   employer         :
@@ -66,6 +69,14 @@ include:
   - files
 exclude:
   - AGENTS.md
+  - README.md
+  - scripts
+  - tests
+  - run_server.sh
+  - .ruby-version
+  - .python-version
+  - Gemfile.lock
+  - package-lock.json
   - docs
   - google_scholar_crawler
   - "*.sublime-project"
@@ -82,9 +93,6 @@ exclude:
   - LICENSE
   - README
   - Rakefile
-  - assets/js/_main.js
-  - assets/js/plugins
-  - assets/js/vendor
   - config
   - gulpfile.js
   - log
@@ -154,11 +162,3 @@ whitelist:
   - jekyll-gist
   - jekyll-feed
   - jemoji
-
-
-# HTML Compression
-# - http://jch.penibelst.de/
-compress_html:
-  clippings: all
-  ignore:
-    envs: development

@@ -37,7 +37,6 @@
 @import "vendor/font-awesome/fontawesome";
 @import "vendor/font-awesome/solid";
 @import "vendor/font-awesome/brands";
-@import "vendor/magnific-popup/magnific-popup";
 @import "print";
 
 .paper-box {
@@ -87,16 +86,6 @@
 
 }
 
-$scroll_offset : 2em;
-h1:before, .anchor:before { 
-    content: ''; 
-    display: block; 
-    position: relative; 
-    width: 0; 
-    height: $scroll_offset; 
-    margin-top: -$scroll_offset;
-}
-
 .badge {
     padding-left: 1rem;
     padding-right: 1rem;
@@ -107,3 +96,4 @@ h1:before, .anchor:before {
     background-color: #00369f;
     font-size: .8em;
 }
+@import "homepage";

@@ -1,4 +1,9 @@
-<script src="assets/js/main.min.js"></script>
-
-{% include analytics.html %}
-{% include fetch_google_scholar_stats.html %}
+{% assign citation_raw = 'https://raw.githubusercontent.com/' | append: site.repository | append: '/google-scholar-stats/gs_data.json' %}
+{% assign citation_cdn = 'https://cdn.jsdelivr.net/gh/' | append: site.repository | append: '@google-scholar-stats/gs_data.json' %}
+{% if site.google_scholar_stats_use_cdn %}
+{% assign citation_source = citation_cdn %}{% assign citation_fallback = citation_raw %}
+{% else %}
+{% assign citation_source = citation_raw %}{% assign citation_fallback = citation_cdn %}
+{% endif %}
+<script type="module" src="{{ '/assets/js/main.js' | relative_url }}" data-citation-source="{{ citation_source }}" data-citation-fallback="{{ citation_fallback }}"></script>
+{% if jekyll.environment == 'production' %}{% include analytics.html %}{% endif %}

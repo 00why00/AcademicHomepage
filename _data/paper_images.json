@@ -1,0 +1,26 @@
+{
+  "JoDiffusion": {
+    "width": 1000,
+    "height": 555
+  },
+  "SRA": {
+    "width": 1000,
+    "height": 559
+  },
+  "PFD": {
+    "width": 1000,
+    "height": 582
+  },
+  "lbGen": {
+    "width": 1000,
+    "height": 508
+  },
+  "AdaptAnything": {
+    "width": 1000,
+    "height": 531
+  },
+  "GEL": {
+    "width": 1000,
+    "height": 444
+  }
+}

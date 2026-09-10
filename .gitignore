@@ -1,3 +1,10 @@
 _site/
+.bundle/
+vendor/bundle/
+.jekyll-cache/
+.sass-cache/
+__pycache__/
+*.pyc
+.venv/
 push.sh
 .DS_Store

@@ -1,0 +1,10 @@
+{% assign dimensions = site.data.paper_images[include.name] %}
+{% assign image_base = '/images/publications/' | append: include.name %}
+{% assign original = '/images/' | append: include.name | append: '.png' %}
+<a href="{{ original | relative_url }}" target="_blank" rel="noopener" aria-label="Open full-resolution {{ include.name }} figure">
+  <img src="{{ image_base | append: '-500.webp' | relative_url }}"
+       srcset="{{ image_base | append: '-500.webp' | relative_url }} 500w, {{ image_base | append: '-1000.webp' | relative_url }} 1000w"
+       sizes="(min-width: 1280px) 400px, (min-width: 768px) 32vw, (min-width: 450px) 400px, calc(100vw - 2rem)"
+       width="{{ dimensions.width }}" height="{{ dimensions.height }}"
+       alt="{{ include.name }} {% if include.name == 'SRA' %}generated image examples{% else %}method overview{% endif %}" loading="lazy" decoding="async">
+</a>

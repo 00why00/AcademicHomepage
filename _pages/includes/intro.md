@@ -1,5 +1,0 @@
-I am currently a second-year Ph.D. student supervised by [Prof. Lei Zhang](https://teacher.nwpu.edu.cn/nwpuzhanglei.html) at [ASGO](https://asgo.nwpu.edu.cn/), in the School of Computer Science, Northwestern Polytechnical University, Xi'an, China. I am broadly interested in computer vision, with a focus on generative AI.
-
-Prior to my Ph.D. study, I obtained my M.S. degree in Computer Technology in 2024 at Northwestern Polytechnical University from the School of Computer Science at Northwestern Polytechnical University, advised by [Prof. Lei Zhang](https://teacher.nwpu.edu.cn/nwpuzhanglei.html). Before this, I obtained my B.S. degree in Computer Science and Technology from the School of Information Science and Engineering at Yanshan University, Qinhuangdao, China in 2021.
-
-If you are interested in any aspect of me, I am always open to discussions and collaborations. Feel free to reach out to me via [Email](mailto:wanghaoyunwpu@mail.nwpu.edu.cn)
