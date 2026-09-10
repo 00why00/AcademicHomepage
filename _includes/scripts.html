@@ -1,9 +1,10 @@
 {% assign citation_raw = 'https://raw.githubusercontent.com/' | append: site.repository | append: '/google-scholar-stats/gs_data.json' %}
 {% assign citation_cdn = 'https://cdn.jsdelivr.net/gh/' | append: site.repository | append: '@google-scholar-stats/gs_data.json' %}
+{% assign citation_api = 'https://api.github.com/repos/' | append: site.repository | append: '/contents/gs_data.json?ref=google-scholar-stats' %}
 {% if site.google_scholar_stats_use_cdn %}
 {% assign citation_source = citation_cdn %}{% assign citation_fallback = citation_raw %}
 {% else %}
 {% assign citation_source = citation_raw %}{% assign citation_fallback = citation_cdn %}
 {% endif %}
-<script type="module" src="{{ '/assets/js/main.js' | relative_url }}" data-citation-source="{{ citation_source }}" data-citation-fallback="{{ citation_fallback }}"></script>
+<script type="module" src="{{ '/assets/js/main.js' | relative_url }}" data-citation-source="{{ citation_source }}" data-citation-api="{{ citation_api }}" data-citation-fallback="{{ citation_fallback }}"></script>
 {% if jekyll.environment == 'production' %}{% include analytics.html %}{% endif %}

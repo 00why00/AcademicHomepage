@@ -27,8 +27,10 @@ A citation span uses the full `citation_for_view` ID from the corresponding Goog
 ```
 
 Missing records and unavailable citation data do not prevent the rest of the page from rendering.
-The browser tries the raw data branch first and falls back to jsDelivr if that host is unavailable.
-Set `google_scholar_stats_use_cdn` to reverse this preference.
+The browser tries the raw data branch, GitHub's public Contents API, then jsDelivr.
+The API requests raw JSON and is only used if the first host fails; a rate-limit response
+falls through to the CDN. The CDN may retain a branch snapshot for up to 12 hours.
+Set `google_scholar_stats_use_cdn` to prefer CDN availability over freshness.
 The full publication list is linked on Google Scholar; only verified publication changes should be added here.
 
 ## Local preview and checks

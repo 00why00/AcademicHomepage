@@ -11,6 +11,7 @@
 - 前端使用原生 JavaScript，无需维护压缩脚本或运行打包工具。
 - 推送前运行 Node 测试、Python 测试、Jekyll 构建和 `scripts/check_site.py`。
 - 引用更新失败时会保留旧数据。先看 Get Citation Data 日志，区分依赖错误、网络／代理失败和数据校验失败。
+- 网页依次尝试原始数据、GitHub 官方文件接口和 jsDelivr；官方接口限流时会继续尝试 CDN。CDN 分支缓存可能延迟最多 12 小时，优先使用默认的原始数据源。
 - Pages 发布成功与引用更新成功是两项独立状态。
 - Ruby、Bundler、Python 版本及完整命令见[仓库 README](../README.md)。
 

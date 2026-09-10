@@ -57,4 +57,4 @@ if (nav && toggle && links) {
 }
 
 const settings = document.querySelector("script[data-citation-source]")?.dataset;
-void loadCitations(document, [settings?.citationSource, settings?.citationFallback]);
+void loadCitations(document, [settings?.citationSource, settings?.citationApi, settings?.citationFallback]);

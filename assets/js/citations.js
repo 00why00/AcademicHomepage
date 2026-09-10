@@ -16,7 +16,11 @@ export async function loadCitations(root, source, fetchData = globalThis.fetch) 
       const controller = new AbortController();
       const timeout = setTimeout(() => controller.abort(), 8000);
       try {
-        const response = await fetchData(url, { signal: controller.signal, cache: "no-cache" });
+        // Request file contents rather than the API's Base64 metadata envelope.
+        const headers = url.startsWith("https://api.github.com/")
+          ? { Accept: "application/vnd.github.raw+json" }
+          : {};
+        const response = await fetchData(url, { signal: controller.signal, cache: "no-cache", headers });
         if (!response.ok) throw new Error(`Citation data HTTP ${response.status}`);
         const candidate = await response.json();
         if (!candidate || !candidate.publications || typeof candidate.publications !== "object") {

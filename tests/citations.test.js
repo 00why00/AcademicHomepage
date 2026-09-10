@@ -53,3 +53,22 @@ test("alternate host recovers when the primary source is unavailable", async () 
   assert.deepEqual(calls, ["primary", "fallback"]);
   assert.equal(paper.textContent, "Citations: 7");
 });
+
+test("GitHub raw media requests recover fresh data and rate limits fall through", async () => {
+  const api = "https://api.github.com/repos/owner/site/contents/gs_data.json?ref=stats";
+  for (const rateLimited of [false, true]) {
+    const calls = [];
+    const paper = element("valid");
+    await loadCitations(page([paper]), ["raw", api, "cdn"], async (url, options) => {
+      calls.push(url);
+      if (url === "raw") throw new Error("unavailable");
+      if (url === api) {
+        assert.equal(options.headers.Accept, "application/vnd.github.raw+json");
+        if (rateLimited) return { ok: false, status: 403 };
+      }
+      return { ok: true, json: async () => data };
+    });
+    assert.deepEqual(calls, rateLimited ? ["raw", api, "cdn"] : ["raw", api]);
+    assert.equal(paper.textContent, "Citations: 7");
+  }
+});
