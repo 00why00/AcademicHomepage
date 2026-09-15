@@ -17,7 +17,7 @@
   ],
   "email_domain": "@mail.nwpu.edu.cn",
   "homepage": "http://haoyuwang.com/",
-  "citedby": 128,
+  "citedby": 130,
   "publications": {
     "PBNh1BIAAAAJ:d1gkVwhDpl0C": {
       "container_type": "Publication",
@@ -29,7 +29,7 @@
       },
       "filled": false,
       "author_pub_id": "PBNh1BIAAAAJ:d1gkVwhDpl0C",
-      "num_citations": 67,
+      "num_citations": 68,
       "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7095456534083399278",
       "cites_id": [
         "7095456534083399278"
@@ -45,7 +45,7 @@
       },
       "filled": false,
       "author_pub_id": "PBNh1BIAAAAJ:qjMakFHDy7sC",
-      "num_citations": 42,
+      "num_citations": 43,
       "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12366720946678993076,1340735357181243939",
       "cites_id": [
         "12366720946678993076",
@@ -174,7 +174,7 @@
       "num_citations": 0
     }
   },
-  "citedby5y": 128,
+  "citedby5y": 130,
   "hindex": 4,
   "hindex5y": 4,
   "i10index": 2,
@@ -183,7 +183,7 @@
     "2023": 1,
     "2024": 19,
     "2025": 38,
-    "2026": 70
+    "2026": 72
   },
-  "updated": "2026-09-14T14:47:35+00:00"
+  "updated": "2026-09-15T13:12:33+00:00"
 }
