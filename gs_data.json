@@ -149,6 +149,18 @@
         "2843329353934762635"
       ]
     },
+    "PBNh1BIAAAAJ:roLk4NBRz8UC": {
+      "container_type": "Publication",
+      "source": "AUTHOR_PUBLICATION_ENTRY",
+      "bib": {
+        "title": "S-RL: Sample-Set Dual Reinforcement Learning for Generative Semantic Segmentation Dataset Distillation",
+        "pub_year": "2026",
+        "citation": "arXiv preprint arXiv:2610.35491, 2026"
+      },
+      "filled": false,
+      "author_pub_id": "PBNh1BIAAAAJ:roLk4NBRz8UC",
+      "num_citations": 0
+    },
     "PBNh1BIAAAAJ:WF5omc3nYNoC": {
       "container_type": "Publication",
       "source": "AUTHOR_PUBLICATION_ENTRY",
@@ -185,5 +197,5 @@
     "2025": 37,
     "2026": 92
   },
-  "updated": "2026-10-30T14:55:52+00:00"
+  "updated": "2026-10-31T14:21:52+00:00"
 }
