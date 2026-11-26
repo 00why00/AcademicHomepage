@@ -9,7 +9,7 @@ Source for [haoyuwang.com](https://haoyuwang.com/), built with Jekyll and GitHub
 | --- | --- |
 | `_config.yml` | Site URL, description, profiles and analytics |
 | `_includes/homepage/intro.md` | Biography and research interests |
-| `_includes/homepage/news.md` | Dated research updates |
+| `_data/news.yml` | Research updates, newest first. The latest four are shown by default. |
 | `_includes/homepage/pub.md` | Selected publications and Scholar IDs |
 | `_includes/homepage/others.md` | Education, experience and reviewing |
 | `_data/navigation.yml` | Navigation labels and section anchors |

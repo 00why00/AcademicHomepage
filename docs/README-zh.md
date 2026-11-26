@@ -2,7 +2,7 @@
 
 网站：[haoyuwang.com](https://haoyuwang.com/)。
 
-日常内容分别放在 `_includes/homepage/` 下的 intro、news、pub、others 文件。
+个人简介、论文和经历分别放在 `_includes/homepage/` 下的 intro、pub、others 文件。动态按从新到旧的顺序写入 `_data/news.yml`，首页默认展示最近四条。
 可复用片段不要放进 `_pages/`，否则可能被生成为独立页面并进入 sitemap。
 
 - 修改论文时核对正式会议／期刊状态、作者顺序和 Google Scholar 论文 ID。
