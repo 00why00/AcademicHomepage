@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Haoyu Wang"
-description              : "Haoyu Wang is a Ph.D. student at Northwestern Polytechnical University researching computer vision, diffusion models, and synthetic data for visual recognition."
+description              : "Haoyu Wang is a Ph.D. student at Northwestern Polytechnical University. His earlier work focused on data generation, and he now studies physical world models as a research intern at Li Auto."
 url                      : "https://haoyuwang.com"
 baseurl                  : ""
 repository               : "00why00/AcademicHomepage"

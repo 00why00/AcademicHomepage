@@ -5,6 +5,20 @@
 
 \* Equal contribution. See [Google Scholar]({{ site.author.googlescholar }}) for the full publication list.
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2026</div>{% include paper-image.html name="S2RL" %}</div></div>
+<div class='paper-box-text' markdown="1">
+
+[S²-RL: Sample-Set Dual Reinforcement Learning for Generative Semantic Segmentation Dataset Distillation](https://openreview.net/forum?id=4uK1DB9ydR) \\
+**Haoyu Wang**, Fei Zhou, Qingqing Qiu, Lei Zhang, Wei Wei, Chen Ding
+
+[**Project**](https://00why00.github.io/S2RL/) \| [**Code**](https://github.com/00why00/S2RL)
+
+<span class="paper-citations" data-scholar-id="PBNh1BIAAAAJ:roLk4NBRz8UC"></span>
+
+- We train a diffusion model with GRPO to build small datasets for semantic segmentation, rewarding images that match their prompts and add visual patterns underrepresented in the set.
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">AAAI 2026</div>{% include paper-image.html name="JoDiffusion" %}</div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -22,14 +36,14 @@
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div>{% include paper-image.html name="SRA" %}</div></div>
 <div class='paper-box-text' markdown="1">
 
-[No Other Representation Component Is Needed: Diffusion Transformers Can Provide Representation Guidance by Themselves](https://arxiv.org/pdf/2505.02831) \\
+[Representation Alignment for Diffusion Transformers without External Components](https://proceedings.iclr.cc/paper_files/paper/2026/hash/201e691e8a0940291dc591eb0439a789-Abstract-Conference.html) \\
 Dengyang Jiang, Mengmeng Wang, Liuzhuozheng Li, Lei Zhang, **Haoyu Wang**, Wei Wei, Guang Dai, Yanning Zhang, Jingdong Wang
 
 [**Project**](https://vvvvvjdy.github.io/sra) \| [**Code**](https://github.com/vvvvvjdy/SRA)
 
 <span class="paper-citations" data-scholar-id="PBNh1BIAAAAJ:qjMakFHDy7sC"></span>
 
-- Enhances Diffusion Transformers' representation and generation through self-representation alignment via self-distillation, eliminating external components.
+- Self-Representation Alignment (SRA) speeds up diffusion transformer training by aligning features from early layers at high noise with the model's own deeper features at low noise.
 </div>
 </div>
 

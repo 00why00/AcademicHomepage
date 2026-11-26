@@ -4,7 +4,7 @@ from pathlib import Path
 from PIL import Image
 
 ROOT = Path(__file__).resolve().parents[1]
-NAMES = ("JoDiffusion", "SRA", "PFD", "lbGen", "AdaptAnything", "GEL")
+NAMES = ("S2RL", "JoDiffusion", "SRA", "PFD", "lbGen", "AdaptAnything", "GEL")
 
 
 def main():

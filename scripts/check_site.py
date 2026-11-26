@@ -54,7 +54,9 @@ def main():
     assert page.heads == 1 and page.h1s == 1, "Expected one head and one main heading"
     for key in ["description", "og:description", "og:image", "twitter:card"]:
         assert page.meta.get(key), f"Missing metadata: {key}"
-    assert len(page.citation_ids) == len(set(page.citation_ids)) == 6
+    image_metadata = Path(__file__).resolve().parents[1] / "_data" / "paper_images.json"
+    paper_count = len(json.loads(image_metadata.read_text()))
+    assert len(page.citation_ids) == len(set(page.citation_ids)) == paper_count
     site_url = "https://haoyuwang.com/"
     for reference in page.references:
         url = urlsplit(urljoin(site_url, reference))
@@ -77,7 +79,7 @@ def main():
         assert local_file(root, location.text).is_file(), location.text
     for private_path in ["_pages/includes", "scripts", "tests", "google_scholar_crawler", "AGENTS.md", "README.md"]:
         assert not (root / private_path).exists(), f"Unexpected published path: {private_path}"
-    print(f"Site checks passed: {len(page.images)} images, {len(page.references)} references, 6 citation IDs.")
+    print(f"Site checks passed: {len(page.images)} images, {len(page.references)} references, {paper_count} citation IDs.")
 
 
 if __name__ == "__main__":

@@ -3,6 +3,7 @@
 ## 📖 Education & Experience
 {: #education tabindex="-1" }
 
+- *2026.07 – present*: Li Auto, World Model Research Intern.
 - *2024.03 – present*: Northwestern Polytechnical University, Ph.D. student in Computer Science and Technology.
 - *2023.06 – 2023.09*: Hikvision Research Institute, Research Intern.
 - *2021.09 – 2024.03*: Northwestern Polytechnical University, M.S. in Computer Technology.

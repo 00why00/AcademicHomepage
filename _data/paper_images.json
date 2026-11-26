@@ -1,4 +1,8 @@
 {
+  "S2RL": {
+    "width": 1000,
+    "height": 490
+  },
   "JoDiffusion": {
     "width": 1000,
     "height": 555
