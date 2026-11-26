@@ -1,7 +1,7 @@
 {% assign seo_description = page.description | default: site.description | strip_html | strip_newlines %}
 {% assign canonical_url = page.url | replace: 'index.html', '' | absolute_url %}
 {% assign preview_image = '/images/android-chrome-512x512.png' | absolute_url %}
-<title>{{ site.title | escape }} — Data Generation &amp; Physical World Models</title>
+<title>{{ site.title | escape }}</title>
 <meta name="description" content="{{ seo_description | escape }}">
 <link rel="canonical" href="{{ canonical_url }}">
 <meta property="og:type" content="website">
