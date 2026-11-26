@@ -14,5 +14,6 @@
 ## 💻 Academic Services
 {: #academic-services tabindex="-1" }
 
-- Conference reviewer: ICCV 2025, NeurIPS 2025, AAAI 2026.
-- Journal reviewer: TBC, PR, JSTARS.
+- **Conference reviewer** — [ICML 2026 (Silver Reviewer)](https://icml.cc/Conferences/2026/ProgramCommittee#silver), ICLR (2027), NeurIPS (2025, 2026), and ICCV (2025).
+- **Program committee member** — AAAI (2026, 2027).
+- **Journal reviewer** — *Pattern Recognition*, *IEEE Transactions on Mobile Computing* (TMC), *IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing* (JSTARS), and *Green Energy and Intelligent Transportation*.
