@@ -17,7 +17,7 @@
   ],
   "email_domain": "@mail.nwpu.edu.cn",
   "homepage": "http://haoyuwang.com/",
-  "citedby": 153,
+  "citedby": 158,
   "publications": {
     "PBNh1BIAAAAJ:d1gkVwhDpl0C": {
       "container_type": "Publication",
@@ -29,7 +29,7 @@
       },
       "filled": false,
       "author_pub_id": "PBNh1BIAAAAJ:d1gkVwhDpl0C",
-      "num_citations": 74,
+      "num_citations": 75,
       "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=7095456534083399278",
       "cites_id": [
         "7095456534083399278"
@@ -45,7 +45,7 @@
       },
       "filled": false,
       "author_pub_id": "PBNh1BIAAAAJ:qjMakFHDy7sC",
-      "num_citations": 58,
+      "num_citations": 61,
       "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=12366720946678993076,1340735357181243939",
       "cites_id": [
         "12366720946678993076",
@@ -62,7 +62,7 @@
       },
       "filled": false,
       "author_pub_id": "PBNh1BIAAAAJ:W7OEmFMy1HYC",
-      "num_citations": 7,
+      "num_citations": 8,
       "citedby_url": "https://scholar.google.com/scholar?oi=bibs&hl=en&cites=8840207228590231791",
       "cites_id": [
         "8840207228590231791"
@@ -186,7 +186,7 @@
       "num_citations": 0
     }
   },
-  "citedby5y": 153,
+  "citedby5y": 158,
   "hindex": 4,
   "hindex5y": 4,
   "i10index": 2,
@@ -195,7 +195,7 @@
     "2023": 1,
     "2024": 19,
     "2025": 37,
-    "2026": 96
+    "2026": 100
   },
-  "updated": "2026-11-11T15:52:32+00:00"
+  "updated": "2026-11-26T09:50:32+00:00"
 }
